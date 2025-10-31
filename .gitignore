@@ -1,0 +1,14 @@
+.vscode/
+.idea/
+
+data/*
+weights/*.pt
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
