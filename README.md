@@ -1,17 +1,16 @@
-# 🧠 Projeto de Detecção de Imagens com YOLO
+# 🧠 Projeto classificação de semáforos com YOLO
 
-Este projeto utiliza o modelo **YOLO (You Only Look Once)** para detectar objetos em imagens — neste caso, aplicado à detecção de **[especifique o tipo de objeto, ex: semáforos, veículos, etc.]**.  
+Este projeto utiliza o modelo **YOLO (You Only Look Once)** para detectar objetos em imagens — neste caso, aplicado à detecção de semáforos.  
 O objetivo é desenvolver, treinar e avaliar uma rede neural capaz de identificar padrões visuais com alta precisão.
 
 ---
 
 ## 📋 Sumário
 
-- [1. Pré-requisitos](#1-pré-requisitos)
-- [2. Estrutura do Projeto](#2-estrutura-do-projeto)
-- [3. Como Rodar o Projeto](#3-como-rodar-o-projeto)
-- [4. Dataset](#4-dataset)
-- [5. Treinamento](#5-treinamento)
+- [1. Pré-requisitos](#1--pré-requisitos)
+- [2. Estrutura do Projeto](#2--estrutura-do-projeto)
+- [3. Como Rodar o Projeto](#3--como-rodar-o-projeto)
+- [4. Dataset](#4--dataset)
 
 ---
 
@@ -31,6 +30,9 @@ Instale as dependências com:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
 ## 2. 📂 Estrutura do Projeto
 
 ```bash
@@ -55,6 +57,10 @@ pip install -r requirements.txt
 ├── .gitignore
 └── README.md
 ```
+
+---
+
+
 ## 3. 🚀 Como Rodar o Projeto
 
 ### 1 - Clone o repositório
@@ -83,9 +89,14 @@ yolo task=detect mode=train model=yolov8l.pt data=data/data.yaml epochs=50
 python src/video_recognizer.py
 ```
 
+---
+
 ## 4. 🖼️ Dataset
 
 Os arquivos de imagem não estão inclusos neste repositório.
 Eles podem ser baixados no Google Drive:
 
 👉 [Link para o Dataset](https://drive.google.com/drive/folders/1339TI4yWAzAqONhsjsg_7Dn-lC9qltqU?usp=sharing)  
+
+
+
