@@ -10,7 +10,7 @@ O objetivo é desenvolver, treinar e avaliar uma rede neural capaz de identifica
 - [1. Pré-requisitos](#1--pré-requisitos)
 - [2. Estrutura do Projeto](#2--estrutura-do-projeto)
 - [3. Como Rodar o Projeto](#3--como-rodar-o-projeto)
-- [4. Dataset](#4--dataset)
+- [4. Dataset](#4-dataset)
 
 ---
 
@@ -91,7 +91,7 @@ python src/video_recognizer.py
 
 ---
 
-## 4. 🖼️ Dataset
+## 4. Dataset
 
 Os arquivos de imagem não estão inclusos neste repositório.
 Eles podem ser baixados no Google Drive:
