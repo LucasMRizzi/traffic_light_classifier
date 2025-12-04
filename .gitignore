@@ -3,6 +3,7 @@
 
 data/*
 weights/*.pt
+*/runs
 
 __pycache__/
 *.pyc
