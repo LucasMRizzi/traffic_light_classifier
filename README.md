@@ -98,6 +98,8 @@ Eles podem ser baixados no Google Drive:
 
 👉 [Link para o Dataset](https://drive.google.com/drive/folders/1339TI4yWAzAqONhsjsg_7Dn-lC9qltqU?usp=sharing)  
 
+---
+
 ## 5. Resultados
 
 Os experimentos realizados com a arquitetura atual demonstraram um desempenho moderado, indicando oportunidades para otimização futura.
