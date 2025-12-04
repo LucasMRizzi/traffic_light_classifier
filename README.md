@@ -94,9 +94,9 @@ python src/video_recognizer.py
 ## 4. Dataset
 
 Os arquivos de imagem não estão inclusos neste repositório.
-Eles podem ser baixados no Google Drive:
+Eles podem ser baixados pelo site:
 
-👉 [Link para o Dataset](https://drive.google.com/drive/folders/1339TI4yWAzAqONhsjsg_7Dn-lC9qltqU?usp=sharing)  
+👉 [Link para o Dataset](https://universe.roboflow.com/yololearning-nuega/traffic-lights-yulcv/dataset/1)
 
 ---
 
