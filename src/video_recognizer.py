@@ -3,11 +3,11 @@ import cv2
 import math
 import cvzone
 
-model = YOLO("weights/bestv1.pt")
+model = YOLO("../weights/model_train_v2.pt")
 
 classNames = ["Green", "Red", "Yellow"]
 
-cap = cv2.VideoCapture("data/carro.mp4")
+cap = cv2.VideoCapture("../data/semaforos2.mp4")
 
 while True:
     success, img = cap.read()
