@@ -6,7 +6,6 @@ Esta pasta **não contém as imagens** diretamente por questões de tamanho e ve
 
 Os conjuntos de dados utilizados neste projeto estão disponíveis em:
 
-- **Google Drive:** [link para o dataset](https://drive.google.com/drive/folders/1339TI4yWAzAqONhsjsg_7Dn-lC9qltqU?usp=sharing)  
 - **Roboflow:** [link para o dataset](https://universe.roboflow.com/yololearning-nuega/traffic-lights-yulcv/dataset/1)  
 
 ## 📦 Estrutura esperada

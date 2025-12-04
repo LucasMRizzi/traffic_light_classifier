@@ -51,7 +51,7 @@ pip install -r requirements.txt
 │   └── utils/             # Funções auxiliares
 │
 ├── weights/
-│   └── best.pt            # Resultado do treinamento
+│   └── model_train_v2.pt            # Resultado do treinamento
 │
 ├── requirements.txt
 ├── .gitignore
@@ -97,6 +97,22 @@ Os arquivos de imagem não estão inclusos neste repositório.
 Eles podem ser baixados no Google Drive:
 
 👉 [Link para o Dataset](https://drive.google.com/drive/folders/1339TI4yWAzAqONhsjsg_7Dn-lC9qltqU?usp=sharing)  
+
+## 5. Resultados
+
+Os experimentos realizados com a arquitetura atual demonstraram um desempenho moderado, indicando oportunidades para otimização futura.
+
+**Métricas Gerais:** O modelo atingiu um pico de Precisão de aproximadamente 60%.
+
+**Detecção de Instâncias:** Observou-se uma dificuldade na revocação (recall). O modelo tendeu a não identificar (Falsos Negativos) diversas instâncias de semáforos presentes nas imagens, especialmente em cenários mais complexos.
+
+**Generalização:** Embora tenha detectado os objetos mais evidentes, a consistência da detecção variou, resultando na perda de objetos menores ou parcialmente obstruídos.
+
+### Principais Desafios Observados
+
+**Falsos Negativos:** O modelo deixou passar semáforos em condições de iluminação variável ou quando o objeto ocupava uma área pequena da imagem (low pixel density).
+
+**Convergência:** O treinamento estagnou na faixa de 60% de precisão, sugerindo a necessidade de ajustes nos hiperparâmetros (learning rate, momentum) ou refinamento do dataset (data augmentation).
 
 
 
